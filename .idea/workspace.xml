@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e283d79a-e5e5-44ed-b726-4a231acb7c0a" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dart File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1TllTh0MKWnKr4da90WRNyHLEtQ" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="dart.analysis.tool.window.force.activate" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/practice/intro/captor5" />
+      <recent name="$PROJECT_DIR$/src/practice/intro/captor3" />
+      <recent name="$PROJECT_DIR$/src/practice/intro/captor2" />
+      <recent name="$PROJECT_DIR$/src/practice/intro/factory" />
+      <recent name="$PROJECT_DIR$/src/practice/intro" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Dart Command Line App.FunctionalDart.dart">
+    <configuration name="AbstractFactory.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/src/practice/intro/factory/AbstractFactory.dart" />
+      <option name="workingDirectory" value="$PROJECT_DIR$/src/practice/intro/factory" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Factory.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/src/practice/intro/factory/Factory.dart" />
+      <option name="workingDirectory" value="$PROJECT_DIR$/src/practice/intro/factory" />
+      <method v="2" />
+    </configuration>
+    <configuration name="FunctionalDart.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/src/practice/intro/captor6/FunctionalDart.dart" />
+      <option name="workingDirectory" value="$PROJECT_DIR$/src/practice/intro/captor6" />
+      <method v="2" />
+    </configuration>
+    <configuration name="IntroToDartForJavaDevelopers.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/src/practice/intro/captor2/IntroToDartForJavaDevelopers.dart" />
+      <option name="workingDirectory" value="$PROJECT_DIR$/src/practice/intro/captor2" />
+      <method v="2" />
+    </configuration>
+    <configuration name="LanguageSample.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/src/practice/LanguageSample.dart" />
+      <option name="workingDirectory" value="$PROJECT_DIR$/src/practice" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Dart Command Line App.FunctionalDart.dart" />
+        <item itemvalue="Dart Command Line App.AbstractFactory.dart" />
+        <item itemvalue="Dart Command Line App.Factory.dart" />
+        <item itemvalue="Dart Command Line App.IntroToDartForJavaDevelopers.dart" />
+        <item itemvalue="Dart Command Line App.LanguageSample.dart" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e283d79a-e5e5-44ed-b726-4a231acb7c0a" name="Default Changelist" comment="" />
+      <created>1574042571354</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574042571354</updated>
+      <workItem from="1574042573840" duration="26000" />
+      <workItem from="1574042618024" duration="5949000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>
