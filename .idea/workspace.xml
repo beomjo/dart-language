@@ -53,7 +53,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Dart Command Line App.AbstractFactory.dart">
     <configuration name="AbstractFactory.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
       <option name="filePath" value="$PROJECT_DIR$/src/practice/intro/factory/AbstractFactory.dart" />
       <option name="workingDirectory" value="$PROJECT_DIR$/src/practice/intro/factory" />
@@ -101,10 +101,22 @@
       <updated>1574042571354</updated>
       <workItem from="1574042573840" duration="26000" />
       <workItem from="1574042618024" duration="5949000" />
+      <workItem from="1574124868650" duration="240000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
