@@ -1,0 +1,3 @@
+class SomeClass {
+  void someMethod() {}
+}
