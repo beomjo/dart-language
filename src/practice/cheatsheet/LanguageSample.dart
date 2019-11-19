@@ -1,5 +1,12 @@
-import 'BigObject.dart';
-import 'MyObject.dart';
+import '../Intro_to_dart_for_java_developers/captor4/AbstractFactory.dart';
+import 'samples/Automobile.dart';
+import 'samples/BigObject.dart';
+import 'samples/ImmutablePoint.dart';
+import 'samples/MyClass.dart';
+import 'samples/MyColor.dart';
+import 'samples/MyObject.dart';
+import 'samples/NonNegativePoint.dart';
+import 'samples/Point.dart';
 
 main() {
   stringInterpolation();
@@ -13,6 +20,24 @@ main() {
   arrowSyntax();
   println();
   cascades();
+  println();
+  gettersAndSetter();
+  println();
+  optionalPositionalParameters();
+  println();
+  optionalNamedParameters();
+  println();
+  exceptions();
+  println();
+  initializerLists();
+  println();
+  namedConstructors();
+  println();
+  factoryConstructor();
+  println();
+  redirectingConstructor();
+  println();
+  constConstructors();
 }
 
 void stringInterpolation() {
@@ -96,13 +121,11 @@ void cascades() {
       ..onClick.listen((e) => window.alert('Confirmed!'));
    * */
 
-  var bigObject =fillBigObject(new BigObject());
+  var bigObject = fillBigObject(new BigObject());
   print(bigObject.anInt);
   print(bigObject.aString);
   print(bigObject.aList);
 }
-
-
 
 BigObject fillBigObject(BigObject obj) {
   // Create a single statement that will update and return obj:
@@ -111,6 +134,100 @@ BigObject fillBigObject(BigObject obj) {
     ..aString = 'String!'
     ..aList = [3, 0]
     ..allDone();
+}
+
+void gettersAndSetter() {
+  final myClass = new MyClass();
+  myClass.aProperty = -1;
+  print(myClass.aProperty);
+  myClass.aProperty = 10;
+  print(myClass.aProperty);
+
+  myClass.addValue(1);
+  myClass.addValue(2);
+  myClass.addValue(3);
+  print(myClass.count);
+  print(myClass.countSum);
+}
+
+void optionalPositionalParameters() {
+  //Dart를 사용하면 이러한 위치 매개 변수를 대괄호로 묶어 선택적으로 지정할 수 있습니다.
+  int total;
+  total ??= 0;
+  total = sumUp(1, 2, 3);
+  print(total);
+  total = sumUpToFive(1, 2);
+  print(total);
+  total = sumUpToFive(1, 2, 3, 4, 5);
+  print(total);
+}
+
+int sumUp(int a, int b, int c) => a + b + c;
+
+int sumUpToFive(int a, [int b, int c, int d, int e]) {
+  int sum = a;
+  if (b != null) sum += b;
+  if (c != null) sum += c;
+  if (d != null) sum += d;
+  if (e != null) sum += e;
+  return sum;
+}
+
+void optionalNamedParameters() {
+  printName('Avinash', 'Gupta');
+  printName('Poshmeister', 'Moneybuckets', suffix: 'IV');
+}
+
+void printName(String firstName, String lastName, {String suffix}) {
+  print('$firstName $lastName ${suffix ?? ''}');
+}
+
+void exceptions() {
+  try {
+    throw Exception("Something bad happend");
+//    throw 'Waaaaaah!';
+  } on Exception catch (e) {
+    // A specific exception
+    print(e);
+  } catch (e) {
+    print(e);
+  }
+}
+
+void usingThisInAConstructor() {
+  final color2 = MyColor(red: 80, green: 80, blue: 128);
+}
+
+void initializerLists(){
+  //생성자 assertion
+  final nonNegativePoints = NonNegativePoint(1,1);
+  print(nonNegativePoints.x);
+}
+
+void namedConstructors() {
+  final myPoints = Points.origin();
+  print("${myPoints.x},${myPoints.y}");
+}
+
+void factoryConstructor(){
+  final circle = Shape('circle');
+  final square = Shape('square');
+  final nullShape= Shape('aa');
+  print(circle.area);
+  print(square.area);
+  print(nullShape);
+}
+
+void redirectingConstructor(){
+  final automobile =Automobile.fancyHybrid();
+  print("automobile is ${automobile.make}, ${automobile.model}, ${automobile.mpg}");
+}
+
+void constConstructors(){
+  //클래스가 절대 변경되지 않는 객체를 생성하는 경우 이러한 객체를 컴파일 타임 상수로 만들 수 있습니다.
+  //이렇게하려면 const생성자를 정의하고 모든 인스턴스 변수가 최종적인지 확인하십시오.
+  final immutablePoints =ImmutablePoint.origin;
+  print("immutablePoints ${immutablePoints.x},${immutablePoints.y}");
 }
 
 void println() {

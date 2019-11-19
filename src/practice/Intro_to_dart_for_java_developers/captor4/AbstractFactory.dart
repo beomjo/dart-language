@@ -9,7 +9,8 @@ abstract class Shape {
     else if (type == 'square')
       return Square(2);
     else
-      throw 'Not Surpported $type';
+//      throw 'Not Surpported $type';
+      return null;
   }
 }
 
@@ -31,7 +32,7 @@ class Square implements Shape {
   num get area => pow(side, 2);
 }
 
-void main(){
+void main() {
   final circle = Shape('circle');
   final square = Shape('square');
   print(circle.area);
