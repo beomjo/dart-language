@@ -1,3 +1,0 @@
-class SomeClass {
-  void someMethod() {}
-}
