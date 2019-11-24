@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e283d79a-e5e5-44ed-b726-4a231acb7c0a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice/tour/keyward/if_else/IfElseSample.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice/tour/keyward/mixin/MixInAnimal.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice/tour/keyward/mixin/MixInCase3.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice/tour/keyward/show_and_hide/ShowKewardSample.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice/tour/usecase/string_interpolation/StringInterpolationSample.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stream/samples/StreamExample3.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/asyncronyous/AsyncAwat3.dart" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/asyncronyous/AsyncAwait3.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/cheatsheet/LanguageSample.dart" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/cheatsheet/LanguageSample.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/cheatsheet/samples/MyColor.dart" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/cheatsheet/samples/MyColor.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/tour/AbstractClassSample.dart" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/tour/keyward/abstract/AbstractClassSample.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/tour/DynamicSample.dart" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/tour/keyward/dynamic/DynamicSample.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/tour/ImplicitInterfacesSample.dart" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/tour/usecase/implic_interface/ImplicitInterfacesSample.dart" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,11 +45,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/stream/samples" />
       <recent name="$PROJECT_DIR$/src/practice/tour/usecase/collection" />
       <recent name="$PROJECT_DIR$/src/practice/tour/implic_interface" />
       <recent name="$PROJECT_DIR$/src/practice/tour/dynamic" />
       <recent name="$PROJECT_DIR$/src/practice/tour/abstract" />
-      <recent name="$PROJECT_DIR$/src/practice/tour/show_and_hide" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -75,39 +64,39 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Dart Command Line App.ConstConstructorSample.dart">
-    <configuration name="CasecadeSample.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
-      <option name="filePath" value="$PROJECT_DIR$/src/practice/tour/usecase/cascade/CasecadeSample.dart" />
-      <option name="workingDirectory" value="$PROJECT_DIR$/src/practice/tour/usecase/cascade" />
+  <component name="RunManager" selected="Dart Command Line App.StreamExample3.dart">
+    <configuration name="FileListenAndDecoding.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/src/stream/FileListenAndDecoding.dart" />
+      <option name="workingDirectory" value="$PROJECT_DIR$/src/stream" />
       <method v="2" />
     </configuration>
-    <configuration name="ConstConstructorSample.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
-      <option name="filePath" value="$PROJECT_DIR$/src/practice/tour/usecase/const_constuctor/ConstConstructorSample.dart" />
-      <option name="workingDirectory" value="$PROJECT_DIR$/src/practice/tour/usecase/const_constuctor" />
+    <configuration name="SteamExample1.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/src/stream/samples/SteamExample1.dart" />
+      <option name="workingDirectory" value="$PROJECT_DIR$/src/stream/samples" />
       <method v="2" />
     </configuration>
-    <configuration name="LanguageSample.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
-      <option name="filePath" value="$PROJECT_DIR$/src/practice/cheatsheet/LanguageSample.dart" />
-      <option name="workingDirectory" value="$PROJECT_DIR$/src/practice/cheatsheet" />
+    <configuration name="SteamExample3.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/src/stream/samples/SteamExample3.dart" />
+      <option name="workingDirectory" value="$PROJECT_DIR$/src/stream/samples" />
       <method v="2" />
     </configuration>
-    <configuration name="StringInterpolationSample.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
-      <option name="filePath" value="$PROJECT_DIR$/src/practice/tour/usecase/string_interpolation/StringInterpolationSample.dart" />
-      <option name="workingDirectory" value="$PROJECT_DIR$/src/practice/tour/usecase/string_interpolation" />
+    <configuration name="StreamExample2.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/src/stream/samples/StreamExample2.dart" />
+      <option name="workingDirectory" value="$PROJECT_DIR$/src/stream/samples" />
       <method v="2" />
     </configuration>
-    <configuration name="TypedefsSample.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
-      <option name="filePath" value="$PROJECT_DIR$/src/practice/tour/keyward/typedefs/TypedefsSample.dart" />
-      <option name="workingDirectory" value="$PROJECT_DIR$/src/practice/tour/keyward/typedefs" />
+    <configuration name="StreamExample3.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/src/stream/samples/StreamExample3.dart" />
+      <option name="workingDirectory" value="$PROJECT_DIR$/src/stream/samples" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Dart Command Line App.ConstConstructorSample.dart" />
-        <item itemvalue="Dart Command Line App.CasecadeSample.dart" />
-        <item itemvalue="Dart Command Line App.StringInterpolationSample.dart" />
-        <item itemvalue="Dart Command Line App.LanguageSample.dart" />
-        <item itemvalue="Dart Command Line App.TypedefsSample.dart" />
+        <item itemvalue="Dart Command Line App.StreamExample3.dart" />
+        <item itemvalue="Dart Command Line App.SteamExample3.dart" />
+        <item itemvalue="Dart Command Line App.StreamExample2.dart" />
+        <item itemvalue="Dart Command Line App.SteamExample1.dart" />
+        <item itemvalue="Dart Command Line App.FileListenAndDecoding.dart" />
       </list>
     </recent_temporary>
   </component>
@@ -128,7 +117,7 @@
       <workItem from="1574492745634" duration="925000" />
       <workItem from="1574553509413" duration="1707000" />
       <workItem from="1574594877071" duration="1660000" />
-      <workItem from="1574600241453" duration="2370000" />
+      <workItem from="1574600241453" duration="5826000" />
     </task>
     <servers />
   </component>
