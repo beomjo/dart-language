@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e283d79a-e5e5-44ed-b726-4a231acb7c0a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/stream/samples/StreamExample3.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stream/samples/StreamExample3.dart" beforeDir="false" afterPath="$PROJECT_DIR$/src/stream/samples/StreamExample3.dart" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
